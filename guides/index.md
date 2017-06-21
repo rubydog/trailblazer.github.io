@@ -4,13 +4,13 @@ title: Guides
 ---
 
 {% row %}
-~~~6,medium-centered
+~~~12
 
 A collection of guides to help you learn how Trailblazer and its gems work.
 {% endrow %}
 
 {% row %}
-  ~~~3,medium-offset-3
+  ~~~6
   **TRAILBLAZER**
 
   * [01 - Operation Basics](/guides/trailblazer/2.0/01-operation-basics.html)
@@ -18,21 +18,10 @@ A collection of guides to help you learn how Trailblazer and its gems work.
   * [03 - Rails Basics](/guides/trailblazer/2.0/03-rails-basics.html)
   ~~~3,end
   **REFORM**
+  
+  Coming soon!
 {% endrow %}
 
-{% row %}
-  ~~~6,medium-centered
-  <h3>
-  <img src="/images/3dbuch-freigestellt.png" class="teaser-logo">
-  Trailblazer - The Book
-</h3>
-
-<p>The Trailblazer book walks you through building a realistic Rails application from scratch. It includes all basic knowledge, discusses authentication, authorization using policies, callback objects, how to build consuming and rendering hypermedia APIs with TRB, and much more.</p>
-
-<p>
-  <a href="http://leanpub.com/trailblazer">→ Grab the book!</a>
-</p>
-{% endrow %}
 
 <div class="row text-center">
   <div class="columns">
@@ -84,7 +73,18 @@ A collection of guides to help you learn how Trailblazer and its gems work.
 
     </div>
   </div>
-
-
 </section>
 
+{% row %}
+  ~~~12
+  <h3>
+  <img src="/images/3dbuch-freigestellt.png" class="teaser-logo">
+  Trailblazer - The Book
+</h3>
+
+<p>The Trailblazer book walks you through building a realistic Rails application from scratch. It includes all basic knowledge, discusses authentication, authorization using policies, callback objects, how to build consuming and rendering hypermedia APIs with TRB, and much more.</p>
+
+<p>
+  <a href="http://leanpub.com/trailblazer">→ Grab the book!</a>
+</p>
+{% endrow %}
